@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset='utf-8'>
+	<title>Русская рулетка</title>
+	<link rel="stylesheet" href="style.css">
+	<script type="text/javascript">
+		
+		function Play()
+		{
+			var number=0;
+			alert("Игра в русскую рулетку.Поехали!")
+			do{
+				if ((Math.random()*6)<1) {
+					alert("Вам выпала роковая пуля...");
+					break;
+				}
+				number++;
+			}while(prompt("Вы прошли "+number+"-й раунд.Продолжить игру и спустить курок: нажмите 'Enter'.Для выхода нажмите 'Отмена'")=="");
+			alert("Раундов пройдено:"+number);
+		}
+	</script>
+</head>
+<body>
+	<div id="header">
+		<a href="index.html">Главная</a><span>/</span>
+		<a href="puzzle.html">Загадки</a><span>/</span>
+		<a href="guess-2.html">Угадайка</a><span>/</span>
+		<a href="russian roulette.html">Русская рулетка</a><span>/</span>
+		<a href="bank.html">Калькулятор вкладов</a><span>/</span>
+		<a href="Black-Jack.html">Black-Jack</a><span>/</span>
+        <a href="weather.html">Погода</a>
+	</div>
+<div id="content">
+	<h1>Личный сайт Клименко Кирилла</h1>
+    <div id="center">	
+		<h3>Русская рулетка</h3>
+	    <div id="box">
+            <a href="#" onclick="Play();">Начать игру</a>
+            <p>Игра с компьютером.</p>
+
+	    	<p>Русская рултка, или гусфрская рулетка — экстремальная азартная игра или пари с летальным исходом. По правилам игры в пустой барабан револьвера заряжается один или несколько патронов с тем, чтобы остались свободные каморы, после чего барабан несколько раз проворачивается так, чтобы игроки не знали, где располагаются патроны, а где — пустые каморы. После этого игроки по очереди подносят ствол револьвера к собственной голове и нажимают на спусковой крючок. В обычных азартных играх для имитации русской рулетки используется игрушечный револьвер.</p>
+            
+            <p>Проверьте ваше везение в этой азартной игре.</p>
+            
+            <p>Удачи!</p>
+	    </div>
+</div>
+
+<div id="footer">
+	Copyright Doors © 2018 <a href="https://defaultin.github.io/internaldoors/"> Internal Doors </a>
+</div>
+
+</body>
+</html>

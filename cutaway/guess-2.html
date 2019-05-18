@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset='utf-8'>
+	<title>Угадайка мультиплеер</title>
+	<link rel="stylesheet" href="style.css">
+	<script type="text/javascript">
+		
+		function Play()
+		{	
+			var answer = parseInt(Math.random() * 100);
+			var plyaerNum = 1;
+			while(true){
+				var userAnswer = prompt('Ходит игрок ' + plyaerNum + ' .Введите число от 0 до 100. Для выхода введите "exit"');
+				if(userAnswer == 'exit')
+					break;
+				if(userAnswer > answer){
+					alert('Ваше число слишком большое');
+				} else if(userAnswer < answer){
+					alert('Ваше число слишком маленькое');
+				} else if(userAnswer == answer){
+					alert('Вы угадали, поздравляю! Победил игрок номер ' + plyaerNum);
+					break;
+				}
+				if(plyaerNum == 1)
+					plyaerNum = 2;		
+				else if(plyaerNum == 2)
+					plyaerNum = 1;
+			}
+		}
+	</script>
+</head>
+<body>
+	<div id="header">
+		<a href="index.html">Главная</a><span>/</span>
+		<a href="puzzle.html">Загадки</a><span>/</span>
+		<a href="guess-2.html">Угадайка</a><span>/</span>
+		<a href="russian roulette.html">Русская рулетка</a><span>/</span>
+		<a href="bank.html">Калькулятор вкладов</a><span>/</span>
+		<a href="Black-Jack.html">Black-Jack</a><span>/</span>
+        <a href="weather.html">Погода</a>
+	</div>
+<div id="content">
+	<h1>Личный сайт Клименко Кирилла</h1>
+    <div id="center">	
+		<h3>Угадайка мультиплеер</h3>			
+	    <div id="box">
+            <a href="#" onclick="Play();">Начать игру</a>
+            <p>Играют два игрока, у которых будет неограниченное количество попыток, чтобы угадать, задуманное компьютером число.</p>
+            <p>Компьютер загадывает число от  0 до 100. Игроки должны поочереди пытаться угадать число. При каждой попытке угадать число, компьютер даёт подсказку в виде диапазона "больше" или "меньше". Побеждает игрок, который перым угадает число.</p>
+            <p>С точки зрения теории вероятности, вероятность того, что вы угадаете число с первого раза равняется 1 к 90. Проверьте свою интуицию.</p>
+            <p>Удачи!</p>
+	    </div>
+</div>
+
+<div id="footer">
+	Copyright Doors © 2018 <a href="https://defaultin.github.io/internaldoors/"> Internal Doors </a>
+</div>
+
+</body>
+</html>
