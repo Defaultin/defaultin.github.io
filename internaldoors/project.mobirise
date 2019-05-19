@@ -1,0 +1,2445 @@
+{
+  "settings": {
+    "name": "Двери",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "mobirise3",
+      "title": "Mobirise 3",
+      "styling": {
+        "primaryColor": "#c0a375",
+        "secondaryColor": "#bfcecb",
+        "successColor": "#90a878",
+        "infoColor": "#7e9b9f",
+        "warningColor": "#f3c649",
+        "dangerColor": "#f28281",
+        "titleFont": "Montserrat",
+        "subtitleFont": "Lora",
+        "textFont": "Raleway",
+        "isRoundedButtons": false,
+        "isAnimatedOnScroll": true,
+        "isScrollToTopButton": false,
+        "isRtl": false
+      }
+    },
+    "versionFirst": "3.12.1",
+    "uniqCompNum": 63,
+    "versionPublish": "3.12.1",
+    "favicon": "",
+    "noImageResize": "",
+    "google-analytics": "",
+    "cookiesAlert": "Данный сайт создан в образовательных целях. Internal Doors на данный момент не функционирует. Подробнее у <a href='https://t.me/Kiryao'>разработчика</a>."
+  },
+  "pages": {
+    "Каталог.html": {
+      "settings": {
+        "title": "Каталог",
+        "meta_descr": "",
+        "order": 2
+      },
+      "components": [
+        {
+          "_inherit": "menu",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
+              "font-family": "'Montserrat', sans-serif"
+            },
+            ".link": {
+              "font-size": "0.85rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.921rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#1a1a1a"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#2b2b2b!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#333333"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-0",
+          "_params": {
+            "bgColor": "#333333",
+            "fontSize": "0.85",
+            "fontName": {
+              "name": "Montserrat",
+              "url": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
+              "css": "'Montserrat', sans-serif"
+            },
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor",
+            "transparent": false,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": false
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/onlinelogomaker-070317-1230-282x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false,
+              "active": true
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "linkInNewWindow": false,
+              "name": "genius",
+              "family": "et-line",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption text-white\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"Контакты.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Калининград</a>",
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\" aria-expanded=\"false\">Главная</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Ассортимент</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Каталог.html\">Каталог</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Фотогалерея.html\">Фотогалерея</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Услуги</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Доставка.html\">Доставка</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Установка.html\">Установка</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Гарантия.html\">Гарантия</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Контакты.html\">Контакты</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"О нас.html\">О нас</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white\" href=\"Связь.html\"><span class=\"mbri-touch mbr-iconfont mbr-iconfont-btn\"></span>СВЯЗАТЬСЯ С НАМИ</a></li>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features3",
+          "_styles": {
+            "P": {
+              "text-align": "center",
+              "color": "#282828"
+            }
+          },
+          "_anchor": "features3-o",
+          "_params": {
+            "paddingTop": "3",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#efefef",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "width": 1280,
+              "height": 720,
+              "url": "https://www.youtube.com/embed/NNQwCYrJTOU?rel=0&amp;showinfo=0&autoplay=0&loop=0"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "columns": "6",
+            "showImages": true,
+            "showTitles": true,
+            "showSubtitles": true,
+            "ShowTexts": true,
+            "showButtons": true
+          },
+          "media1": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/1-600x1449.png",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "МОДЕНА ДО",
+              "linkInNewWindow": false
+            }
+          },
+          "title1": "МОДЕНА ДО",
+          "subtitle1": "В наличии",
+          "caption1": "<span style=\"font-size: 1rem; line-height: 1.5;\">Материал:&nbsp;массив ольхи</span><br>Цвет:&nbsp;Махагон<br>Высота:&nbsp;2000<br>Ширина:&nbsp;800<br>Серия:&nbsp;Модена ДО<br>Цена:&nbsp;273.00 р",
+          "button1": "<a data-app-btn=\"true\" href=\"Связь.html\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">ПОДРОБНЕЕ</a>",
+          "media2": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/2-600x1449.png",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "Равелла ЧО",
+              "linkInNewWindow": false
+            }
+          },
+          "title2": "РАВЕЛЛА ЧО",
+          "subtitle2": "В наличии",
+          "caption2": "<span style=\"font-size: 1rem; line-height: 1.5;\">Материал:&nbsp;массив ольхи</span><br>Цвет:&nbsp;Венге<br>Высота:&nbsp;2000<br>Ширина:&nbsp;800<br>Серия:&nbsp;Массив ольхи<br>Цена:&nbsp;305.56 р",
+          "button2": "<a data-app-btn=\"true\" href=\"Связь.html\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">ПОДРОБНЕЕ</a>",
+          "media3": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/3-600x1449.png",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "ВЕГА 9 ЧО",
+              "linkInNewWindow": false
+            }
+          },
+          "title3": "ВЕГА 9 ЧО",
+          "subtitle3": "В наличии",
+          "caption3": "Материал: массив сосны<br>Цвет: Белый<br>Высота: 2000<br>Ширина: 800<br>Серия: Массив сосны<br>Цена: 249.82 р<br>",
+          "button3": "<a data-app-btn=\"true\" href=\"Связь.html\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">ПОДРОБНЕЕ</a>",
+          "media4": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/4-600x1449.png",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "РАФАЭЛЬ ДО",
+              "linkInNewWindow": false
+            }
+          },
+          "title4": "РАФАЭЛЬ ДО",
+          "subtitle4": "В наличии",
+          "caption4": "Материал: массив сосны<br>Цвет: Орех<br>Высота: 2000<br>Ширина: 800<br>Серия: Массив сосны<br>Цена: 396.90 р<br>",
+          "button4": "<a data-app-btn=\"true\" href=\"Связь.html\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">ПОДРОБНЕЕ</a>",
+          "media5": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/5-600x1449.png",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "МОДЕЛЬ №11 ДО",
+              "linkInNewWindow": false
+            }
+          },
+          "title5": "МОДЕЛЬ №11 ДО",
+          "subtitle5": "В наличии",
+          "caption5": "Материал: массив ольхи<br>Цвет: Тёмный лак<br>Высота: 2000<br>Ширина: 800<br>Серия: Массив ольхи<br>Цена: 252.07 р<br>",
+          "button5": "<a data-app-btn=\"true\" href=\"Связь.html\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">ПОДРОБНЕЕ</a>",
+          "media6": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/6-600x1449.png",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "ВЕРСАЛЬ М. ДО",
+              "linkInNewWindow": false
+            }
+          },
+          "title6": "ВЕРСАЛЬ М. ДО",
+          "subtitle6": "В наличии",
+          "caption6": "Материал: массив ольхи<br>Цвет: Бренди<br>Высота: 2000<br>Ширина: 800<br>Серия: Массив ольхи<br>Цена: 234.00 р<br>",
+          "button6": "<a data-app-btn=\"true\" href=\"Связь.html\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">ПОДРОБНЕЕ</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features3",
+          "_styles": {
+            "P": {
+              "text-align": "center",
+              "color": "#282828"
+            }
+          },
+          "_anchor": "features3-1o",
+          "_params": {
+            "paddingTop": "3",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#efefef",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "width": 1280,
+              "height": 720,
+              "url": "https://www.youtube.com/embed/NNQwCYrJTOU?rel=0&amp;showinfo=0&autoplay=0&loop=0"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "columns": "6",
+            "showImages": true,
+            "showTitles": true,
+            "showSubtitles": true,
+            "ShowTexts": true,
+            "showButtons": true
+          },
+          "media1": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/13-600x1449.png",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "ПРЕМЬЕР+ ДО",
+              "linkInNewWindow": false
+            }
+          },
+          "title1": "<span style=\"color: inherit; font-size: 1.25rem; line-height: 1.2825;\">МОДЕЛЬ №16 ДО</span><br>",
+          "subtitle1": "В наличии",
+          "caption1": "<span style=\"font-size: 1rem; line-height: 1.5;\">Материал:&nbsp;массив сосны</span><br>Цвет:&nbsp;Тёмный лак<br>Высота:&nbsp;2000<br>Ширина:&nbsp;800<br>Серия:&nbsp;Массив сосны<br>Цена:&nbsp;229.84 р",
+          "button1": "<a data-app-btn=\"true\" href=\"Связь.html\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">ПОДРОБНЕЕ</a>",
+          "media2": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/14-600x1449.png",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "ВЕРОНА М. ДО",
+              "linkInNewWindow": false
+            }
+          },
+          "title2": "МОДЕЛЬ №5 ПМЦ",
+          "subtitle2": "В наличии",
+          "caption2": "<span style=\"font-size: 1rem; line-height: 1.5;\">Материал:&nbsp;</span>массив сосны<br>Цвет: Коньяк<br>Высота:&nbsp;2000<br>Ширина:&nbsp;800<br>Серия:&nbsp;Массив сосны<br>Цена:&nbsp;185.50 р",
+          "button2": "<a data-app-btn=\"true\" href=\"Связь.html\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">ПОДРОБНЕЕ</a>",
+          "media3": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/15-600x1449.png",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": " ДИВА ДГ",
+              "linkInNewWindow": false
+            }
+          },
+          "title3": "МОДЕЛЬ №5 ДО",
+          "subtitle3": "В наличии",
+          "caption3": "Материал: массив сосны<br>Цвет: Песок<br>Высота: 2000<br>Ширина: 800<br>Серия:&nbsp;Модель №5 ДО<br>Цена: 186.56 р<br>",
+          "button3": "<a data-app-btn=\"true\" href=\"Связь.html\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">ПОДРОБНЕЕ</a>",
+          "media4": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/16-600x1449.png",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "БОСТОН ДО",
+              "linkInNewWindow": false
+            }
+          },
+          "title4": "<span style=\"color: inherit; font-size: 1.25rem; line-height: 1.2825;\">ВЕНЕЦИЯ М. ДО</span><br>",
+          "subtitle4": "В наличии",
+          "caption4": "Материал: массив ольхи<br>Цвет: Бренди<br>Высота: 2000<br>Ширина: 800<br>Серия: Массив ольхи<br>Цена: 276.43 р<br>",
+          "button4": "<a data-app-btn=\"true\" href=\"Связь.html\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">ПОДРОБНЕЕ</a>",
+          "media5": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/17-600x1461.png",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "КЛЭР ДО",
+              "linkInNewWindow": false
+            }
+          },
+          "title5": "<span style=\"color: inherit; font-size: 1.25rem; line-height: 1.2825;\">ВИОЛА ДО</span><br>",
+          "subtitle5": "В наличии",
+          "caption5": "Материал: массив ольхи<br>Цвет: Бренди<br>Высота: 2000<br>Ширина: 800<br>Серия: Массив ольхи<br>Цена: 274.34 р<br>",
+          "button5": "<a data-app-btn=\"true\" href=\"Связь.html\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">ПОДРОБНЕЕ</a>",
+          "media6": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/18-600x1449.png",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "КЛЭР ДГ",
+              "linkInNewWindow": false
+            }
+          },
+          "title6": "ВИОЛА ДГ",
+          "subtitle6": "В наличии",
+          "caption6": "Материал: массив ольхи<br>Цвет: Венге<br>Высота: 2000<br>Ширина: 800<br>Серия: Массив ольхи<br>Цена: 274.34 р<br>",
+          "button6": "<a data-app-btn=\"true\" href=\"Связь.html\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">ПОДРОБНЕЕ</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features3",
+          "_styles": {
+            "P": {
+              "text-align": "center",
+              "color": "#282828"
+            }
+          },
+          "_anchor": "features3-1p",
+          "_params": {
+            "paddingTop": "3",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#efefef",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "width": 1280,
+              "height": 720,
+              "url": "https://www.youtube.com/embed/NNQwCYrJTOU?rel=0&amp;showinfo=0&autoplay=0&loop=0"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "columns": "6",
+            "showImages": true,
+            "showTitles": true,
+            "showSubtitles": true,
+            "ShowTexts": true,
+            "showButtons": true
+          },
+          "media1": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/13-600x1449.png",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "ПРЕМЬЕР+ ДО",
+              "linkInNewWindow": false
+            }
+          },
+          "title1": "ПРЕМЬЕР+ ДО",
+          "subtitle1": "В наличии",
+          "caption1": "<span style=\"font-size: 1rem; line-height: 1.5;\">Материал:&nbsp;массив ольхи</span><br>Цвет:&nbsp;Медовый орех<br>Высота:&nbsp;2000<br>Ширина:&nbsp;800<br>Серия:&nbsp;Массив ольхи<br>Цена:&nbsp;202.18 р",
+          "button1": "<a data-app-btn=\"true\" href=\"Связь.html\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">ПОДРОБНЕЕ</a>",
+          "media2": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/14-600x1449.png",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "ВЕРОНА М. ДО",
+              "linkInNewWindow": false
+            }
+          },
+          "title2": "ВЕРОНА М. ДО",
+          "subtitle2": "В наличии",
+          "caption2": "<span style=\"font-size: 1rem; line-height: 1.5;\">Материал:&nbsp;массив ольхи</span><br>Цвет:&nbsp;Бренди<br>Высота:&nbsp;2000<br>Ширина:&nbsp;800<br>Серия:&nbsp;Массив ольхи<br>Цена:&nbsp;305.56 р",
+          "button2": "<a data-app-btn=\"true\" href=\"Связь.html\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">ПОДРОБНЕЕ</a>",
+          "media3": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/15-600x1449.png",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": " ДИВА ДГ",
+              "linkInNewWindow": false
+            }
+          },
+          "title3": "<span style=\"color: inherit; font-size: 1.25rem; line-height: 1.2825;\">ДИВА ДГ</span><br>",
+          "subtitle3": "В наличии",
+          "caption3": "Материал: массив&nbsp;ольхи<br>Цвет: Венге<br>Высота: 2000<br>Ширина: 800<br>Серия: Массив ольхи<br>Цена: 274.34 р<br>",
+          "button3": "<a data-app-btn=\"true\" href=\"Связь.html\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">ПОДРОБНЕЕ</a>",
+          "media4": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/16-600x1449.png",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "БОСТОН ДО",
+              "linkInNewWindow": false
+            }
+          },
+          "title4": "БОСТОН ДО",
+          "subtitle4": "В наличии",
+          "caption4": "Материал: массив  ольхи<br>Цвет: Чёрный камень<br>Высота: 2000<br>Ширина: 800<br>Серия: Массив ольхи<br>Цена: 305.56 р<br>",
+          "button4": "<a data-app-btn=\"true\" href=\"Связь.html\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">ПОДРОБНЕЕ</a>",
+          "media5": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/17-600x1461.png",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "КЛЭР ДО",
+              "linkInNewWindow": false
+            }
+          },
+          "title5": "КЛЭР ДО",
+          "subtitle5": "В наличии",
+          "caption5": "Материал: массив ольхи<br>Цвет: Орех<br>Высота: 2000<br>Ширина: 800<br>Серия: Массив ольхи<br>Цена: 396.90 р<br>",
+          "button5": "<a data-app-btn=\"true\" href=\"Связь.html\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">ПОДРОБНЕЕ</a>",
+          "media6": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/18-600x1449.png",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "КЛЭР ДГ",
+              "linkInNewWindow": false
+            }
+          },
+          "title6": "КЛЭР ДГ",
+          "subtitle6": "В наличии",
+          "caption6": "Материал: массив ольхи<br>Цвет: Махагон<br>Высота: 2000<br>Ширина: 800<br>Серия: Массив ольхи<br>Цена: 378.00 р<br>",
+          "button6": "<a data-app-btn=\"true\" href=\"Связь.html\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">ПОДРОБНЕЕ</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts1",
+          "_anchor": "contacts1-13",
+          "_params": {
+            "paddingTop": "3",
+            "paddingBottom": "3",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#333333",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#3C3C3C"
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/onlinelogomaker-070317-1230-128x58.png",
+              "width": 128,
+              "link": "index.html",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false,
+              "active": true
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-contacts1",
+              "linkInNewWindow": false,
+              "name": "mobirise",
+              "family": "MobiriseIcons",
+              "link": "Главная.html",
+              "size": 0,
+              "newWindow": false
+            }
+          },
+          "text1": "<strong>Адрес</strong><br>г. Калининград<br>\nпр. Калинина 4",
+          "text2": "<strong>Контакты</strong><br>\nEmail:&nbsp;ver2vit@yandex.ru<br>Телефон: +7 (4012) 64 71 95<br>Skype: gorynovich3.0",
+          "text3": "<strong>Links</strong><br>Администратор: https://t.me/Kiryao<br>Продавец:&nbsp;https://vk.com/id489988955"
+        }
+      ]
+    },
+    "Контакты.html": {
+      "settings": {
+        "title": "Наши контакты ",
+        "meta_descr": "",
+        "order": 3
+      },
+      "components": [
+        {
+          "_inherit": "menu",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
+              "font-family": "'Montserrat', sans-serif"
+            },
+            ".link": {
+              "font-size": "0.85rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.921rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#1a1a1a"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#2b2b2b!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#333333"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-0",
+          "_params": {
+            "bgColor": "#333333",
+            "fontSize": "0.85",
+            "fontName": {
+              "name": "Montserrat",
+              "url": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
+              "css": "'Montserrat', sans-serif"
+            },
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor",
+            "transparent": false,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": false
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/onlinelogomaker-070317-1230-282x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false,
+              "active": true
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "linkInNewWindow": false,
+              "name": "genius",
+              "family": "et-line",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption text-white\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"Контакты.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Калининград</a>",
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\" aria-expanded=\"false\">Главная</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Ассортимент</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Каталог.html\">Каталог</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Фотогалерея.html\">Фотогалерея</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Услуги</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Доставка.html\">Доставка</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Установка.html\">Установка</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Гарантия.html\">Гарантия</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Контакты.html\">Контакты</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"О нас.html\">О нас</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white\" href=\"Связь.html\"><span class=\"mbri-touch mbr-iconfont mbr-iconfont-btn\"></span>СВЯЗАТЬСЯ С НАМИ</a></li>"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#fff"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#a0a0a0"
+            },
+            ".btn": {
+              "font-size": "14px"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box2",
+          "_anchor": "msg-box2-1j",
+          "_params": {
+            "paddingTop": "4",
+            "paddingBottom": "2",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#333333",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "inverse": true,
+            "showButtons": true,
+            "showTitle": true,
+            "showText": true
+          },
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"Связь.html\" data-toolbar=\"-mbrBtnMove\"><span class=\"socicon socicon-mail mbr-iconfont mbr-iconfont-btn\"></span>Обратная связь по электронной почте</a>",
+          "title": "Наше местоположение",
+          "text": "Нас легко найти в центре Калининграда: большое историческое здание на &nbsp;проспекте Калинина, 4, остановка ПКиО \"Южный\", у равелина \"Фридланд\". Ждём вас в нашем магазине!"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "map1",
+          "_anchor": "map1-t",
+          "_params": {
+            "googleMap": {
+              "address": "г. Калининград\nпр.Калинина 4",
+              "placeId": "ChIJpZizpUAW40YRLz1GGJM5Ou0",
+              "state": "ok",
+              "stateDetails": ""
+            }
+          }
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts1",
+          "_anchor": "contacts1-13",
+          "_params": {
+            "paddingTop": "3",
+            "paddingBottom": "3",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#333333",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#3C3C3C"
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/onlinelogomaker-070317-1230-128x58.png",
+              "width": 128,
+              "link": "index.html",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false,
+              "active": true
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-contacts1",
+              "linkInNewWindow": false,
+              "name": "mobirise",
+              "family": "MobiriseIcons",
+              "link": "Главная.html",
+              "size": 0,
+              "newWindow": false
+            }
+          },
+          "text1": "<strong>Адрес</strong><br>г. Калининград<br>\nпр. Калинина 4",
+          "text2": "<strong>Контакты</strong><br>\nEmail:&nbsp;ver2vit@yandex.ru<br>Телефон: +7 (4012) 64 71 95<br>Skype: gorynovich3.0",
+          "text3": "<strong>Links</strong><br>Администратор: https://t.me/Kiryao<br>Продавец:&nbsp;https://vk.com/id489988955"
+        }
+      ]
+    },
+    "О нас.html": {
+      "settings": {
+        "title": "О нас",
+        "meta_descr": "",
+        "order": 4
+      },
+      "components": [
+        {
+          "_inherit": "menu",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
+              "font-family": "'Montserrat', sans-serif"
+            },
+            ".link": {
+              "font-size": "0.85rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.921rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#1a1a1a"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#2b2b2b!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#333333"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-0",
+          "_params": {
+            "bgColor": "#333333",
+            "fontSize": "0.85",
+            "fontName": {
+              "name": "Montserrat",
+              "url": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
+              "css": "'Montserrat', sans-serif"
+            },
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor",
+            "transparent": false,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": false
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/onlinelogomaker-070317-1230-282x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false,
+              "active": true
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "linkInNewWindow": false,
+              "name": "genius",
+              "family": "et-line",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption text-white\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"Контакты.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Калининград</a>",
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\" aria-expanded=\"false\">Главная</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Ассортимент</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Каталог.html\">Каталог</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Фотогалерея.html\">Фотогалерея</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Услуги</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Доставка.html\">Доставка</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Установка.html\">Установка</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Гарантия.html\">Гарантия</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Контакты.html\">Контакты</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"О нас.html\">О нас</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white\" href=\"Связь.html\"><span class=\"mbri-touch mbr-iconfont mbr-iconfont-btn\"></span>СВЯЗАТЬСЯ С НАМИ</a></li>"
+        },
+        {
+          "_inherit": "msg-box8",
+          "_styles": {
+            ".mbr-section-title, p": {
+              "color": "#000"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box3",
+          "_anchor": "msg-box3-1n",
+          "_params": {
+            "paddingTop": "3",
+            "paddingBottom": "3",
+            "parallax": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/desert.jpg",
+            "bgColor": "#F2F2F2",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showText": true,
+            "showButton": true
+          },
+          "title": "Internal Doors",
+          "text": "<p>На протяжении 15 лет мы собирали команду лучших мастеров, профессиональных монтажников и успешных дизайнеров, любящих и качественно выполняющих свою работу, чтобы открыть для вас двери в мир красоты и стиля. &nbsp;У нас есть глубокий многолетний опыт, признание, известность, прекрасные проекты и желание радовать клиентов, создавать новое и пополнять ассортимент. И мы знаем, как это нужно делать! Для нас важны качество, долговечность и внешний вид таких привычных, но необходимых и важных элементов интерьера и повседневной жизни, как двери.&nbsp;</p><p>Мы делаем входные и межкомнатные двери из массива для квартир, домов, школ и офисов. У нас широкий и разнообразный ассортимент, а также мы в короткие сроки делаем двери по индивидуальным заказам клиентов, согласовывая дизайн и материалы. &nbsp;</p>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-danger\" href=\"Фотогалерея.html\" data-toolbar=\"-mbrBtnMove\">Фотогалерея</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts1",
+          "_anchor": "contacts1-13",
+          "_params": {
+            "paddingTop": "3",
+            "paddingBottom": "3",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#333333",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#3C3C3C"
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/onlinelogomaker-070317-1230-128x58.png",
+              "width": 128,
+              "link": "index.html",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false,
+              "active": true
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-contacts1",
+              "linkInNewWindow": false,
+              "name": "mobirise",
+              "family": "MobiriseIcons",
+              "link": "Главная.html",
+              "size": 0,
+              "newWindow": false
+            }
+          },
+          "text1": "<strong>Адрес</strong><br>г. Калининград<br>\nпр. Калинина 4",
+          "text2": "<strong>Контакты</strong><br>\nEmail:&nbsp;ver2vit@yandex.ru<br>Телефон: +7 (4012) 64 71 95<br>Skype: gorynovich3.0",
+          "text3": "<strong>Links</strong><br>Администратор: https://t.me/Kiryao<br>Продавец:&nbsp;https://vk.com/id489988955"
+        }
+      ]
+    },
+    "Связь.html": {
+      "settings": {
+        "title": "Связь с нами",
+        "meta_descr": "",
+        "order": 5
+      },
+      "components": [
+        {
+          "_inherit": "menu",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
+              "font-family": "'Montserrat', sans-serif"
+            },
+            ".link": {
+              "font-size": "0.85rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.921rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#1a1a1a"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#2b2b2b!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#333333"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-0",
+          "_params": {
+            "bgColor": "#333333",
+            "fontSize": "0.85",
+            "fontName": {
+              "name": "Montserrat",
+              "url": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
+              "css": "'Montserrat', sans-serif"
+            },
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor",
+            "transparent": false,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": false
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/onlinelogomaker-070317-1230-282x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false,
+              "active": true
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "linkInNewWindow": false,
+              "name": "genius",
+              "family": "et-line",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption text-white\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"Контакты.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Калининград</a>",
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\" aria-expanded=\"false\">Главная</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Ассортимент</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Каталог.html\">Каталог</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Фотогалерея.html\">Фотогалерея</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Услуги</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Доставка.html\">Доставка</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Установка.html\">Установка</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Гарантия.html\">Гарантия</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Контакты.html\">Контакты</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"О нас.html\">О нас</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white\" href=\"Связь.html\"><span class=\"mbri-touch mbr-iconfont mbr-iconfont-btn\"></span>СВЯЗАТЬСЯ С НАМИ</a></li>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "form1",
+          "_styles": {
+            ".form-control-label": {
+              "color": "#232323"
+            }
+          },
+          "_anchor": "form1-1q",
+          "_params": {
+            "labelsColor": "#232323",
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showSubTitle": true
+          },
+          "title": "Контактная форма",
+          "subtitle": "Заполните форму, чтобы сделать заказ или оставить свои пожелания.&nbsp;<br>Мы свяжемся с вами в течение суток для уточнения заказа или консультации.",
+          "form": {
+            "action": "skyrim021@yandex.ru",
+            "alerts": {
+              "success": "Спасибо! Мы свяжемся с вами в течение суток. Ожидайте, пожалуйста."
+            },
+            "fields": {
+              "name": {
+                "title": "Name",
+                "visible": true,
+                "customTitle": "Имя*"
+              },
+              "email": {
+                "title": "Email",
+                "visible": true,
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "title": "Phone",
+                "visible": true,
+                "customTitle": "Телефон"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Сообщение"
+              }
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\"><span class=\"mbri-cust-feedback mbr-iconfont mbr-iconfont-btn\"></span>ОТПРАВИТЬ</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts1",
+          "_anchor": "contacts1-13",
+          "_params": {
+            "paddingTop": "3",
+            "paddingBottom": "3",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#333333",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#3C3C3C"
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/onlinelogomaker-070317-1230-128x58.png",
+              "width": 128,
+              "link": "index.html",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false,
+              "active": true
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-contacts1",
+              "linkInNewWindow": false,
+              "name": "mobirise",
+              "family": "MobiriseIcons",
+              "link": "Главная.html",
+              "size": 0,
+              "newWindow": false
+            }
+          },
+          "text1": "<strong>Адрес</strong><br>г. Калининград<br>\nпр. Калинина 4",
+          "text2": "<strong>Контакты</strong><br>\nEmail:&nbsp;ver2vit@yandex.ru<br>Телефон: +7 (4012) 64 71 95<br>Skype: gorynovich3.0",
+          "text3": "<strong>Links</strong><br>Администратор: https://t.me/Kiryao<br>Продавец:&nbsp;https://vk.com/id489988955"
+        }
+      ]
+    },
+    "Фотогалерея.html": {
+      "settings": {
+        "title": "Фотогалерея ",
+        "meta_descr": "",
+        "order": 6
+      },
+      "components": [
+        {
+          "_inherit": "menu",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
+              "font-family": "'Montserrat', sans-serif"
+            },
+            ".link": {
+              "font-size": "0.85rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.921rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#1a1a1a"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#2b2b2b!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#333333"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-0",
+          "_params": {
+            "bgColor": "#333333",
+            "fontSize": "0.85",
+            "fontName": {
+              "name": "Montserrat",
+              "url": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
+              "css": "'Montserrat', sans-serif"
+            },
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor",
+            "transparent": false,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": false
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/onlinelogomaker-070317-1230-282x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false,
+              "active": true
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "linkInNewWindow": false,
+              "name": "genius",
+              "family": "et-line",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption text-white\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"Контакты.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Калининград</a>",
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\" aria-expanded=\"false\">Главная</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Ассортимент</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Каталог.html\">Каталог</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Фотогалерея.html\">Фотогалерея</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Услуги</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Доставка.html\">Доставка</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Установка.html\">Установка</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Гарантия.html\">Гарантия</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Контакты.html\">Контакты</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"О нас.html\">О нас</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white\" href=\"Связь.html\"><span class=\"mbri-touch mbr-iconfont mbr-iconfont-btn\"></span>СВЯЗАТЬСЯ С НАМИ</a></li>"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, p": {
+              "color": "#fff"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box8",
+          "_anchor": "msg-box8-1i",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "parallax": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/desert.jpg",
+            "bgColor": "#F2F2F2",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "width": 1280,
+              "height": 720,
+              "url": "https://www.youtube.com/embed/NNQwCYrJTOU?rel=0&amp;showinfo=0&autoplay=0&loop=0"
+            },
+            "bgVideoRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showText": true,
+            "showButton": false
+          },
+          "title": "Фотоальбом Internal Doors",
+          "text": "<p>Многолетний опыт закрепляют фотоотчёты готовых и вмонтированных дверей в интерьерах комнат и кабинетов наших клиентов.</p>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://mobirise.com\">SEE ALL TEMPLATES</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "gallery1",
+          "_styles": {
+            ".mbr-gallery-item > div > span": {
+              "font-family": "'Roboto', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
+              "font-size": "15px"
+            }
+          },
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "images": [
+              {
+                "tags": "Индивидуальные заказы, Входные двери",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-2000x2666-800x1066.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img-2000x2666.jpg",
+                "caption": "Входная дверь цвета Тиффани с окном для яркого летнего домика",
+                "active": false
+              },
+              {
+                "tags": "Индивидуальные заказы, Входные двери",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-1-2000x2666-800x1066.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img-1-2000x2666.jpg",
+                "caption": "Роскошная массивная дверь, подходящая для старинных городских домов с узким крыльцом",
+                "active": false
+              },
+              {
+                "tags": "Индивидуальные заказы, Входные двери",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-2000x2694-800x1077.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img-2000x2694.jpg",
+                "caption": "Светло-голубой оттенок входной двери с ручкой из тёмного металла прекрасно подойдёт дому в стиле шебби-шик",
+                "active": false
+              },
+              {
+                "tags": "В ассортименте, Межкомнатные двери",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-2000x2000-800x800.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img-2000x2000.jpg",
+                "caption": "Чёрно-белая цветовая гамма дома требует подходящих простых и стильных межкомнатных дверей",
+                "active": false
+              },
+              {
+                "tags": "В ассортименте, Входные двери",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-2-2000x2666-800x1066.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img-2-2000x2666.jpg",
+                "caption": "Неокрашенное дерево - подходящий материал для входной двери дома в строгом и тёмном скандинавском стиле",
+                "active": false
+              },
+              {
+                "tags": "Индивидуальные заказы, Входные двери",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-2000x2004-800x801.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img-2000x2004.jpg",
+                "caption": "Аккуратный вид большого нового дома поможет оформить большая дизайнерская дверь, сделанная по индивидуальному заказу",
+                "active": false
+              },
+              {
+                "tags": "В ассортименте, Входные двери",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-2000x2597-800x1038.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img-2000x2597.jpg",
+                "caption": "Внешний вид тяжёлого брутального дома подчеркнёт соответствующая дверь",
+                "active": false
+              },
+              {
+                "tags": "В ассортименте, Межкомнатные двери",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-2000x3000-800x1200.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img-2000x3000.jpg",
+                "caption": "Дверь с широкими досками и стеклянными вставками сделана для широкого и высокого дверного проёма",
+                "active": false
+              },
+              {
+                "tags": "Индивидуальные заказы, Входные двери",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-2000x2820-800x1128.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img-2000x2820.jpg",
+                "caption": "Широкая деревянная дверь с углублениями-окошками и обрамлением со стёклами - индивидуальный заказ для большого дома",
+                "active": false
+              },
+              {
+                "tags": "В ассортименте, Межкомнатные двери",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-2000x1330-800x532.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img-2000x1330.jpg",
+                "caption": "Такая дверь в ванную комнату может соответствовать не только оформлению дома, но и самой ванной",
+                "active": true
+              },
+              {
+                "tags": "В ассортименте, Межкомнатные двери",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-2000x1630-800x652.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img-2000x1630.jpg",
+                "caption": "Дверь в комнату из светлого дерева без излишеств мягко контрастирует с тёмными стенами",
+                "active": false
+              },
+              {
+                "tags": "В ассортименте, Входные двери",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-2000x1665-800x666.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img-2000x1665.jpg",
+                "caption": "Такая дверь окончательно оформит широкий вход в дом в спокойном японском стиле",
+                "active": false
+              },
+              {
+                "tags": "Индивидуальные заказы, Межкомнатные двери",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-2000x2798-800x1119.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img-2000x2798.jpg",
+                "caption": "Классическая рельефная дверь, узкая и высокая, - для роскошной комнаты со старинной мебелью",
+                "active": false
+              },
+              {
+                "tags": "В ассортименте, Межкомнатные двери",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-2000x1604-800x641.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img-2000x1604.jpg",
+                "caption": "Простая тёмная деревянная дверь оказалась необычным элементом в доме серого камня, стекла и холодного белого цвета",
+                "active": false
+              },
+              {
+                "tags": "В ассортименте, Межкомнатные двери",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-1-2000x1604-800x641.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img-1-2000x1604.jpg",
+                "caption": "Строгие геометрические формы металлической дверной ручки подчёркивают не только стиль двери, но и оформление дома в целом",
+                "active": false
+              },
+              {
+                "tags": "В ассортименте, Межкомнатные двери",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-3-2000x2666-800x1066.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img-3-2000x2666.jpg",
+                "caption": "Качественное и лаконичное решение для офиса - простые однотонные двери, универсальные для всех стилей",
+                "active": false
+              },
+              {
+                "tags": "В ассортименте, Межкомнатные двери",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-2000x1190-800x476.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img-2000x1190.jpg",
+                "caption": "Современный минимализм из тёмного дерева, идеальный контраст для светлых комнат",
+                "active": false
+              },
+              {
+                "tags": "В ассортименте, Межкомнатные двери",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-2000x1269-800x507.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img-2000x1269.jpg",
+                "caption": "Лаконичный дизайн для современных интерьеров",
+                "active": false
+              }
+            ],
+            "spacing": "0",
+            "showText": true,
+            "filter": true,
+            "bgColor": "#ffffff",
+            "filterBgColor": false,
+            "fullWidth": false,
+            "showBullets": true
+          },
+          "_anchor": "gallery1-1h",
+          "articleLayout": false,
+          "allItem": "Все"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts1",
+          "_anchor": "contacts1-13",
+          "_params": {
+            "paddingTop": "3",
+            "paddingBottom": "3",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#333333",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#3C3C3C"
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/onlinelogomaker-070317-1230-128x58.png",
+              "width": 128,
+              "link": "index.html",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false,
+              "active": true
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-contacts1",
+              "linkInNewWindow": false,
+              "name": "mobirise",
+              "family": "MobiriseIcons",
+              "link": "Главная.html",
+              "size": 0,
+              "newWindow": false
+            }
+          },
+          "text1": "<strong>Адрес</strong><br>г. Калининград<br>\nпр. Калинина 4",
+          "text2": "<strong>Контакты</strong><br>\nEmail:&nbsp;ver2vit@yandex.ru<br>Телефон: +7 (4012) 64 71 95<br>Skype: gorynovich3.0",
+          "text3": "<strong>Links</strong><br>Администратор: https://t.me/Kiryao<br>Продавец:&nbsp;https://vk.com/id489988955"
+        }
+      ]
+    },
+    "Доставка.html": {
+      "settings": {
+        "title": "Доставка",
+        "meta_descr": "",
+        "order": 7
+      },
+      "components": [
+        {
+          "_inherit": "menu",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
+              "font-family": "'Montserrat', sans-serif"
+            },
+            ".link": {
+              "font-size": "0.85rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.921rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#1a1a1a"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#2b2b2b!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#333333"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-0",
+          "_params": {
+            "bgColor": "#333333",
+            "fontSize": "0.85",
+            "fontName": {
+              "name": "Montserrat",
+              "url": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
+              "css": "'Montserrat', sans-serif"
+            },
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor",
+            "transparent": false,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": false
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/onlinelogomaker-070317-1230-282x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false,
+              "active": true
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "linkInNewWindow": false,
+              "name": "genius",
+              "family": "et-line",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption text-white\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"Контакты.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Калининград</a>",
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\" aria-expanded=\"false\">Главная</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Ассортимент</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Каталог.html\">Каталог</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Фотогалерея.html\">Фотогалерея</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Услуги</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Доставка.html\">Доставка</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Установка.html\">Установка</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Гарантия.html\">Гарантия</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Контакты.html\">Контакты</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"О нас.html\">О нас</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white\" href=\"Связь.html\"><span class=\"mbri-touch mbr-iconfont mbr-iconfont-btn\"></span>СВЯЗАТЬСЯ С НАМИ</a></li>"
+        },
+        {
+          "_inherit": "msg-box5",
+          "_styles": {
+            ".mbr-section-title, .lead p": {
+              "color": "#fff"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box6",
+          "_anchor": "msg-box6-1k",
+          "_params": {
+            "imageSize": 50,
+            "paddingTop": "5",
+            "paddingBottom": "3",
+            "parallax": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "width": 1280,
+              "height": 720,
+              "url": "https://www.youtube.com/embed/NNQwCYrJTOU?rel=0&amp;showinfo=0&autoplay=0&loop=0"
+            },
+            "bgVideoRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#000",
+            "inverse": true,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false
+          },
+          "media": {
+            "image": {
+              "width": 1400,
+              "src": "@THEME_PATH@/components/_images/desert.jpg"
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box5",
+              "linkInNewWindow": false,
+              "name": "delivery",
+              "family": "MobiriseIcons",
+              "link": "",
+              "size": "400",
+              "active": true
+            }
+          },
+          "title": "Доставка по городу и области",
+          "text": "Заказы на любое количество дверей доставляем бесплатно по Калининграду и за дополнительную плату в зависимости от объёма заказа - за город.<br>Для предварительного замера, а также по гарантии мастер приедет к вам бесплатно в любой населённый пункт области. Мы работаем без выходных и принимаем заказы по почте в любое время суток. Заказы доставляются в любой день в интервалы 10:00-13:00, 13:00-16:00, 16:00-19:00, 19:00-22:00 по договорённости с клиентом.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts1",
+          "_anchor": "contacts1-13",
+          "_params": {
+            "paddingTop": "3",
+            "paddingBottom": "3",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#333333",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#3C3C3C"
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/onlinelogomaker-070317-1230-128x58.png",
+              "width": 128,
+              "link": "index.html",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false,
+              "active": true
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-contacts1",
+              "linkInNewWindow": false,
+              "name": "mobirise",
+              "family": "MobiriseIcons",
+              "link": "Главная.html",
+              "size": 0,
+              "newWindow": false
+            }
+          },
+          "text1": "<strong>Адрес</strong><br>г. Калининград<br>\nпр. Калинина 4",
+          "text2": "<strong>Контакты</strong><br>\nEmail:&nbsp;ver2vit@yandex.ru<br>Телефон: +7 (4012) 64 71 95<br>Skype: gorynovich3.0",
+          "text3": "<strong>Links</strong><br>Администратор: https://t.me/Kiryao<br>Продавец:&nbsp;https://vk.com/id489988955"
+        }
+      ]
+    },
+    "Гарантия.html": {
+      "settings": {
+        "title": "Гарантия",
+        "meta_descr": "",
+        "order": 8
+      },
+      "components": [
+        {
+          "_inherit": "menu",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
+              "font-family": "'Montserrat', sans-serif"
+            },
+            ".link": {
+              "font-size": "0.85rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.921rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#1a1a1a"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#2b2b2b!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#333333"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-0",
+          "_params": {
+            "bgColor": "#333333",
+            "fontSize": "0.85",
+            "fontName": {
+              "name": "Montserrat",
+              "url": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
+              "css": "'Montserrat', sans-serif"
+            },
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor",
+            "transparent": false,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": false
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/onlinelogomaker-070317-1230-282x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false,
+              "active": true
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "linkInNewWindow": false,
+              "name": "genius",
+              "family": "et-line",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption text-white\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"Контакты.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Калининград</a>",
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\" aria-expanded=\"false\">Главная</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Ассортимент</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Каталог.html\">Каталог</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Фотогалерея.html\">Фотогалерея</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Услуги</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Доставка.html\">Доставка</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Установка.html\">Установка</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Гарантия.html\">Гарантия</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Контакты.html\">Контакты</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"О нас.html\">О нас</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white\" href=\"Связь.html\"><span class=\"mbri-touch mbr-iconfont mbr-iconfont-btn\"></span>СВЯЗАТЬСЯ С НАМИ</a></li>"
+        },
+        {
+          "_inherit": "msg-box5",
+          "_styles": {
+            ".mbr-section-title, .lead p": {
+              "color": "#fff"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box6",
+          "_anchor": "msg-box6-1l",
+          "_params": {
+            "imageSize": 50,
+            "paddingTop": "7",
+            "paddingBottom": "3",
+            "parallax": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "width": 1280,
+              "height": 720,
+              "url": "https://www.youtube.com/embed/NNQwCYrJTOU?rel=0&amp;showinfo=0&autoplay=0&loop=0"
+            },
+            "bgVideoRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#000",
+            "inverse": true,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false
+          },
+          "media": {
+            "image": {
+              "width": 1400,
+              "src": "@THEME_PATH@/components/_images/desert.jpg"
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box5",
+              "linkInNewWindow": false,
+              "name": "cart-add",
+              "family": "MobiriseIcons",
+              "link": "",
+              "size": "400",
+              "active": true
+            }
+          },
+          "title": "Гарантия до 7 лет",
+          "text": "Мы предоставляем пятилетнюю гарантию на все двери нашего ассортимента и семилетнюю гарантию на индивидуальные заказы.<br>По гарантии мастер приедет к вам бесплатно для предварительной диагностики и первичных ремонтных работ, позже по договорённости для устранения основной проблемы или полной замены дверей. <br>Гарантийному ремонту подлежат двери с фабричными дефектами, не замеченными ранее, плохо функционирующими дверными ручками, некачественно вмонтированные или повреждённые при доставке.&nbsp;<br>Чтобы уточнить возможность гарантийного ремонта &nbsp;ашем случае, свяжитесь с нами по почте или телефону.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts1",
+          "_anchor": "contacts1-13",
+          "_params": {
+            "paddingTop": "3",
+            "paddingBottom": "3",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#333333",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#3C3C3C"
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/onlinelogomaker-070317-1230-128x58.png",
+              "width": 128,
+              "link": "index.html",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false,
+              "active": true
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-contacts1",
+              "linkInNewWindow": false,
+              "name": "mobirise",
+              "family": "MobiriseIcons",
+              "link": "Главная.html",
+              "size": 0,
+              "newWindow": false
+            }
+          },
+          "text1": "<strong>Адрес</strong><br>г. Калининград<br>\nпр. Калинина 4",
+          "text2": "<strong>Контакты</strong><br>\nEmail:&nbsp;ver2vit@yandex.ru<br>Телефон: +7 (4012) 64 71 95<br>Skype: gorynovich3.0",
+          "text3": "<strong>Links</strong><br>Администратор: https://t.me/Kiryao<br>Продавец:&nbsp;https://vk.com/id489988955"
+        }
+      ]
+    },
+    "Установка.html": {
+      "settings": {
+        "title": "Установка",
+        "meta_descr": "",
+        "order": 9
+      },
+      "components": [
+        {
+          "_inherit": "menu",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
+              "font-family": "'Montserrat', sans-serif"
+            },
+            ".link": {
+              "font-size": "0.85rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.921rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#1a1a1a"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#2b2b2b!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#333333"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-0",
+          "_params": {
+            "bgColor": "#333333",
+            "fontSize": "0.85",
+            "fontName": {
+              "name": "Montserrat",
+              "url": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
+              "css": "'Montserrat', sans-serif"
+            },
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor",
+            "transparent": false,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": false
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/onlinelogomaker-070317-1230-282x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false,
+              "active": true
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "linkInNewWindow": false,
+              "name": "genius",
+              "family": "et-line",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption text-white\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"Контакты.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Калининград</a>",
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\" aria-expanded=\"false\">Главная</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Ассортимент</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Каталог.html\">Каталог</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Фотогалерея.html\">Фотогалерея</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Услуги</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Доставка.html\">Доставка</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Установка.html\">Установка</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Гарантия.html\">Гарантия</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Контакты.html\">Контакты</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"О нас.html\">О нас</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white\" href=\"Связь.html\"><span class=\"mbri-touch mbr-iconfont mbr-iconfont-btn\"></span>СВЯЗАТЬСЯ С НАМИ</a></li>"
+        },
+        {
+          "_inherit": "msg-box5",
+          "_styles": {
+            ".mbr-section-title, .lead p": {
+              "color": "#fff"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box6",
+          "_anchor": "msg-box6-1m",
+          "_params": {
+            "imageSize": 50,
+            "paddingTop": "7",
+            "paddingBottom": "3",
+            "parallax": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "width": 1280,
+              "height": 720,
+              "url": "https://www.youtube.com/embed/NNQwCYrJTOU?rel=0&amp;showinfo=0&autoplay=0&loop=0"
+            },
+            "bgVideoRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#000",
+            "inverse": true,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false
+          },
+          "media": {
+            "image": {
+              "width": 1400,
+              "src": "@THEME_PATH@/components/_images/desert.jpg"
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box5",
+              "linkInNewWindow": false,
+              "name": "sale",
+              "family": "MobiriseIcons",
+              "link": "",
+              "size": "400",
+              "active": true
+            }
+          },
+          "title": "Надёжный и профессиональный монтаж дверей",
+          "text": "Команда опытных монтажников поможет вам безопасно и аккуратно установить новые двери. Наши мастера не повредят стены и обои и оставят двери и комнату чистыми и готовыми к заселению. <br>Бесплатно установим до 5 дверей, если вы поделитесь нашим видеороликом в соцсетях.<br>Одну дверь установят для вас в течение получаса после доставки. Предварительные замеры осуществляются бесплатно.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts1",
+          "_anchor": "contacts1-13",
+          "_params": {
+            "paddingTop": "3",
+            "paddingBottom": "3",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#333333",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#3C3C3C"
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/onlinelogomaker-070317-1230-128x58.png",
+              "width": 128,
+              "link": "index.html",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false,
+              "active": true
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-contacts1",
+              "linkInNewWindow": false,
+              "name": "mobirise",
+              "family": "MobiriseIcons",
+              "link": "Главная.html",
+              "size": 0,
+              "newWindow": false
+            }
+          },
+          "text1": "<strong>Адрес</strong><br>г. Калининград<br>\nпр. Калинина 4",
+          "text2": "<strong>Контакты</strong><br>\nEmail:&nbsp;ver2vit@yandex.ru<br>Телефон: +7 (4012) 64 71 95<br>Skype: gorynovich3.0",
+          "text3": "<strong>Links</strong><br>Администратор: https://t.me/Kiryao<br>Продавец:&nbsp;https://vk.com/id489988955"
+        }
+      ]
+    },
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "InternalDoors",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": "",
+        "order": 1
+      },
+      "components": [
+        {
+          "_inherit": "header1",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header4",
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#ffffff"
+            }
+          },
+          "_anchor": "header4-l",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": false,
+            "showArrow": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#a07e49",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "width": 1280,
+              "height": 720,
+              "url": "https://www.youtube.com/embed/NNQwCYrJTOU?rel=0&amp;showinfo=0&autoplay=0&loop=0"
+            },
+            "bgVideoRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#282828",
+            "contentAlign": "left",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true
+          },
+          "title": "Двери из массива",
+          "text": "Качественные и долговечные двери для офиса и дома в любом стиле от опытных мастеров и успешных дизайнеров",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"Фотогалерея.html\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-camera mbr-iconfont mbr-iconfont-btn\"></span>Фотогалерея</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-warning\" href=\"Каталог.html\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-sale mbr-iconfont mbr-iconfont-btn\"></span>Каталог</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "slider",
+          "_params": {
+            "autoplay": true,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "timeout": "4",
+            "slides": [
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/img-2000x1190.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "overlay": true,
+                "contentAlign": "center",
+                "showTitle": true,
+                "title": "Новинки уже в ассортименте!",
+                "showText": true,
+                "text": "Владельцам дисконтной карты нашего магазина скидка -25% на любую продукцию.&nbsp;<br>",
+                "showButtons": true,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"Фотогалерея.html\" data-toolbar=\"-mbrBtnMove\">Фотогалерея</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"Каталог.html\" data-toolbar=\"-mbrBtnMove\">Ассортимент</a>"
+              },
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/img-2000x1800.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "overlay": true,
+                "contentAlign": "right",
+                "showTitle": true,
+                "title": "Праздничные скидки!",
+                "showText": true,
+                "text": "-40% на текущий ассортимент и -60% на &nbsp;индивидуальные заказы",
+                "showButtons": true,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">АССОРТИМЕНТ</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">СДЕЛАТЬ ЗАКАЗ</a>"
+              },
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/img-2000x1333.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "overlay": true,
+                "contentAlign": "center",
+                "showTitle": true,
+                "title": "Сниженные цены для офисов и школ!",
+                "showText": true,
+                "text": "-30% при заказе от 10 дверей и -50% при заказе от 20 дверей<br>",
+                "showButtons": true,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"Фотогалерея.html\" data-toolbar=\"-mbrBtnMove\">Фотогалерея</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"Каталог.html\" data-toolbar=\"-mbrBtnMove\">Ассортимент</a>"
+              },
+              {
+                "active": true,
+                "image": "@PROJECT_PATH@/assets/images/img-2000x1306.png",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "overlay": true,
+                "contentAlign": "left",
+                "showTitle": true,
+                "title": "Бесплатный монтаж и дверные ручки!",
+                "showText": true,
+                "text": "Опубликуйте наш ролик на своей странице в любой соцсети, оставьте нам ссылку на публикацию и не платите за дверные ручки и монтаж до 5 дверей.",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
+              }
+            ],
+            "fullScreen": true,
+            "bgColor": "#fff",
+            "showBullets": true
+          },
+          "_anchor": "slider-12",
+          "articleLayout": false
+        },
+        {
+          "_inherit": "menu",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
+              "font-family": "'Montserrat', sans-serif"
+            },
+            ".link": {
+              "font-size": "0.85rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.921rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#1a1a1a"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#2b2b2b!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#333333"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-0",
+          "_params": {
+            "bgColor": "#333333",
+            "fontSize": "0.85",
+            "fontName": {
+              "name": "Montserrat",
+              "url": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
+              "css": "'Montserrat', sans-serif"
+            },
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor",
+            "transparent": false,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": false
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/onlinelogomaker-070317-1230-282x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false,
+              "active": true
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "linkInNewWindow": false,
+              "name": "genius",
+              "family": "et-line",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption text-white\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"Контакты.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Калининград</a>",
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\" aria-expanded=\"false\">Главная</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Ассортимент</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Каталог.html\">Каталог</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Фотогалерея.html\">Фотогалерея</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Услуги</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Доставка.html\">Доставка</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Установка.html\">Установка</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Гарантия.html\">Гарантия</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Контакты.html\">Контакты</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"О нас.html\">О нас</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white\" href=\"Связь.html\"><span class=\"mbri-touch mbr-iconfont mbr-iconfont-btn\"></span>СВЯЗАТЬСЯ С НАМИ</a></li>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts1",
+          "_anchor": "contacts1-13",
+          "_params": {
+            "paddingTop": "3",
+            "paddingBottom": "3",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#333333",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#3C3C3C"
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/onlinelogomaker-070317-1230-128x58.png",
+              "width": 128,
+              "link": "index.html",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false,
+              "active": true
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-contacts1",
+              "linkInNewWindow": false,
+              "name": "mobirise",
+              "family": "MobiriseIcons",
+              "link": "Главная.html",
+              "size": 0,
+              "newWindow": false
+            }
+          },
+          "text1": "<strong>Адрес</strong><br>г. Калининград<br>\nпр. Калинина 4",
+          "text2": "<strong>Контакты</strong><br>\nEmail:&nbsp;ver2vit@yandex.ru<br>Телефон: +7 (4012) 64 71 95<br>Skype: gorynovich3.0",
+          "text3": "<strong>Links</strong><br>Администратор: https://t.me/Kiryao<br>Продавец:&nbsp;https://vk.com/id489988955"
+        }
+      ]
+    }
+  }
+}
