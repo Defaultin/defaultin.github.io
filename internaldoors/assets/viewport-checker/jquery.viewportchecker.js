@@ -1,15 +1,31 @@
-(function ($) {
-    $.fn.viewportChecker = function (useroptions) {
+/*
+    The MIT License (MIT)
+
+    Copyright (c) 2014 Dirk Groenen
+
+    Permission is hereby granted, free of charge, to any person obtaining a copy of
+    this software and associated documentation files (the "Software"), to deal in
+    the Software without restriction, including without limitation the rights to
+    use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of
+    the Software, and to permit persons to whom the Software is furnished to do so,
+    subject to the following conditions:
+
+    The above copyright notice and this permission notice shall be included in all
+    copies or substantial portions of the Software.
+*/
+
+(function($){
+    $.fn.viewportChecker = function(useroptions){
         // Define options and extend with user
         var options = {
             classToAdd: 'visible',
-            classToRemove: 'invisible',
-            classToAddForFullView: 'full-visible',
+            classToRemove : 'invisible',
+            classToAddForFullView : 'full-visible',
             removeClassAfterAnimation: false,
             offset: 100,
             repeat: false,
             invertBottomOffset: true,
-            callbackFunction: function (elem, action) {},
+            callbackFunction: function(elem, action){},
             scrollHorizontal: false,
             scrollBox: window
         };
@@ -17,29 +33,27 @@
 
         // Cache the given element and height of the browser
         var $elem = this,
-            boxSize = {
-                height: $(options.scrollBox).height(),
-                width: $(options.scrollBox).width()
-            },
+            boxSize = {height: $(options.scrollBox).height(), width: $(options.scrollBox).width()},
             scrollElem = ((navigator.userAgent.toLowerCase().indexOf('webkit') != -1 || navigator.userAgent.toLowerCase().indexOf('windows phone') != -1) ? 'body' : 'html');
 
         /*
          * Main method that checks the elements and adds or removes the class(es)
          */
-        this.checkElements = function () {
+        this.checkElements = function(){
             var viewportStart, viewportEnd;
 
             // Set some vars to check with
-            if (!options.scrollHorizontal) {
+            if (!options.scrollHorizontal){
                 viewportStart = $(scrollElem).scrollTop();
                 viewportEnd = (viewportStart + boxSize.height);
-            } else {
+            }
+            else{
                 viewportStart = $(scrollElem).scrollLeft();
                 viewportEnd = (viewportStart + boxSize.width);
             }
 
             // Loop through all given dom elements
-            $elem.each(function () {
+            $elem.each(function(){
                 var $obj = $(this),
                     objOptions = {},
                     attrOptions = {};
@@ -67,7 +81,7 @@
                 $.extend(objOptions, attrOptions);
 
                 // If class already exists; quit
-                if ($obj.data('vp-animated') && !objOptions.repeat) {
+                if ($obj.data('vp-animated') && !objOptions.repeat){
                     return;
                 }
 
@@ -80,14 +94,14 @@
                     rawEnd = (!objOptions.scrollHorizontal) ? rawStart + $obj.height() : rawStart + $obj.width();
 
                 // Add the defined offset
-                var elemStart = Math.round(rawStart) + objOptions.offset,
+                var elemStart = Math.round( rawStart ) + objOptions.offset,
                     elemEnd = (!objOptions.scrollHorizontal) ? elemStart + $obj.height() : elemStart + $obj.width();
 
                 if (objOptions.invertBottomOffset)
                     elemEnd -= (objOptions.offset * 2);
 
                 // Add class if in viewport
-                if ((elemStart < viewportEnd) && (elemEnd > viewportStart)) {
+                if ((elemStart < viewportEnd) && (elemEnd > viewportStart)){
 
                     // Remove class
                     $obj.removeClass(objOptions.classToRemove);
@@ -106,13 +120,13 @@
                     $obj.data('vp-animated', true);
 
                     if (objOptions.removeClassAfterAnimation) {
-                        $obj.one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function () {
+                        $obj.one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
                             $obj.removeClass(objOptions.classToAdd);
                         });
                     }
 
-                    // Remove class if not in viewport and repeat is true
-                } else if ($obj.hasClass(objOptions.classToAdd) && (objOptions.repeat)) {
+                // Remove class if not in viewport and repeat is true
+                } else if ($obj.hasClass(objOptions.classToAdd) && (objOptions.repeat)){
                     $obj.removeClass(objOptions.classToAdd + " " + objOptions.classToAddForFullView);
 
                     // Do the callback function.
@@ -136,7 +150,7 @@
          */
 
         // Select the correct events
-        if ('ontouchstart' in window || 'onmsgesturechange' in window) {
+        if( 'ontouchstart' in window || 'onmsgesturechange' in window ){
             // Device with touchscreen
             $(document).bind("touchmove MSPointerMove pointermove", this.checkElements);
         }
@@ -145,11 +159,8 @@
         $(options.scrollBox).bind("load scroll", this.checkElements);
 
         // On resize change the height var
-        $(window).resize(function (e) {
-            boxSize = {
-                height: $(options.scrollBox).height(),
-                width: $(options.scrollBox).width()
-            };
+        $(window).resize(function(e){
+            boxSize = {height: $(options.scrollBox).height(), width: $(options.scrollBox).width()};
             $elem.checkElements();
         });
 

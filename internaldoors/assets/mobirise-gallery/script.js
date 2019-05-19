@@ -1,5 +1,5 @@
 (function ($) {
-
+    
     var isBuilder = $('html').hasClass('is-builder');
     if (!isBuilder) {
 
@@ -26,7 +26,7 @@
                 var section = $(this).closest('section');
                 $('.video-container').eq(i).append('<div id ="mbr-video-' + i + '" class="mbr-background-video" data-video-num="' + i + '"></div>')
                     .append('<div class="item-overlay"></div>');
-                $(this).attr('data-video-num', i);
+                     $(this).attr('data-video-num', i);
                 if ($(this).attr('data-video-url').indexOf('vimeo.com') != -1) {
                     var options = {
                         id: $(this).attr('data-video-url'),
@@ -34,20 +34,19 @@
                         height: '100%',
                         loop: true
                     };
-
+                   
                     var player = new Vimeo.Player('mbr-video-' + i, options);
                     player.playVideo = Vimeo.play;
                 } else {
-
-                    var player = new YT.Player('mbr-video-' + i, {
-                        height: '100%',
-                        width: '100%',
-                        videoId: getVideoId($(this).attr('data-video-url')),
-                        events: {
-                            'onReady': onPlayerReady,
-                        }
-                    })
-                }
+               
+                var player = new YT.Player('mbr-video-' + i, {
+                    height: '100%',
+                    width: '100%',
+                    videoId: getVideoId($(this).attr('data-video-url')),
+                    events: {
+                        'onReady': onPlayerReady,
+                    }
+                })}
                 players.push(player);
             });
         }
@@ -125,7 +124,7 @@
             $section.find('.video-slide').each(function (i) {
                 var index = $(this).closest('.mbr-gallery-item').index();
 
-                // setImgSrc($(this));
+               // setImgSrc($(this));
             });
         }
 
@@ -219,8 +218,8 @@
             var slide = $(e.target).find('.carousel-item').eq(index).find('.mbr-background-video');
             $(e.target).find('.carousel-item .mbr-background-video')
             if (slide.length > 0) {
-                var player = players[+slide.attr('data-video-num')];
-                player.playVideo ? player.playVideo() : player.play();
+                var player =  players[+slide.attr('data-video-num')];
+                player.playVideo?player.playVideo():player.play();
             }
         }, 500);
         fitLBtimeout();
@@ -228,22 +227,22 @@
     $window.on('slide.bs.carousel', function (e) {
         var ytv = $(e.target).find('.carousel-item.active .mbr-background-video');
         if (ytv.length > 0) {
-            var player = players[+ytv.attr('data-video-num')];
-            player.pauseVideo ? player.pauseVideo() : player.pause();
+            var player =  players[+ytv.attr('data-video-num')];
+            player.pauseVideo?player.pauseVideo():player.pause();
         }
     });
     $(window).on('resize load', fitLBtimeout);
     $window.on('slid.bs.carousel', function (e) {
         var ytv = $(e.target).find('.carousel-item.active .mbr-background-video');
         if (ytv.length > 0) {
-            var player = players[+ytv.attr('data-video-num')];
-            player.playVideo ? player.playVideo() : player.play();
+            var player =  players[+ytv.attr('data-video-num')];
+            player.playVideo?player.playVideo():player.play();
         }
         fitLBtimeout();
     });
     $window.on('hide.bs.modal', function (e) {
         players.map(function (player, i) {
-            player.pauseVideo ? player.pauseVideo() : player.pause();
+            player.pauseVideo?player.pauseVideo():player.pause();
         });
     });
-}(jQuery));
+} (jQuery));
