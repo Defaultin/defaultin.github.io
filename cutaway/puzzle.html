@@ -11,7 +11,7 @@
 
         function AskQuestion(question, answer) {
             var userAnswer = document.getElementById(question).value;
-            if (userAnswer == answer)
+            if (userAnswer == answer.toLowerCase())
                 count++;
         }
 
